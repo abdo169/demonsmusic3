@@ -316,7 +316,7 @@ client.on('message', message => {
     if (message.content === '3help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت (4)**')
+        .setDescription('**برفكس البوت (3)**')
         .addField('play', 'لتشغيل اغنية')
         .addField('disconnect', 'الخروج من رومك الصوتي')
         .addField('skip', 'تخطي الأغنية')
@@ -329,7 +329,7 @@ client.on('message', message => {
 });
 
 const adminprefix = "3";
-const devs = ['459133035397513228'];
+const devs = ['487313531071496195'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -360,7 +360,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Diamond Codes ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Demons | Music 3 `)//حقوق دايموند كودز
+client.user.setGame(`Chicago | Music 3 `)//حقوق دايموند كودز
 client.user.setStatus("online")
 });
 
